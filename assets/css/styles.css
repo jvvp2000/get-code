@@ -1,0 +1,196 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;600;900&family=Shippori+Antique&display=swap');
+
+:root{
+    --header-height:0rem;
+    --normal-font-size:1rem;
+    --font-color:black;
+    --body-color:white;
+    --normal-padding:1rem;
+    --font: 'Shippori Antique', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--font-color);
+    font-family: var(--font);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    position: relative;
+    margin:0 4rem 0 4rem;
+    font-size: var(--normal-font-size);
+    /* font-weight: bold; */
+    /* background: linear-gradient(135deg, #D4D4F3 30%, #5A69E1  35%, #1FBEFA 50%); */
+    background: linear-gradient(315deg, #1FBEFA 5%, #5A69E1  13%, #D4D4F3 18%);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--font-color);
+    padding: 0 0 1rem 0;
+    /* background-color: royalblue; */
+    
+}
+/* .header::after{
+    content: '';
+    position: absolute;
+    top: -42rem;
+    left: 5;
+    height: 97rem;
+    transform: rotate(90deg);
+    width: 1px;
+    background-color: white;
+} */
+.logo{
+    font-size: 2rem;
+    /* background-color: orange; */
+    /* padding-left: 0; */
+    /* margin-left: 0; */
+    padding: 1rem 1rem 1rem 0;
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: orange; */
+    padding: var(--normal-padding);
+    flex: .3;
+}
+.nav__actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 1rem;
+    /* background-color: orange; */
+    flex: .14;
+}
+.btn{
+    
+    background-color: var(--font-color);
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+.nav__links{
+    padding: 1rem;
+    /* background-color: red; */
+}
+#solutions{
+    position: relative;
+}
+#solutions::after{
+    content: '';
+    height: 5%; 
+    width: 1px;
+    padding-bottom: 2em;
+    position: absolute;
+    left: 6.6rem;
+    top: 3.3rem; 
+    background-color: var(--font-color);
+}
+#solutions::before{
+    content: '';
+    height: 5%; 
+    width: 1px;
+    padding-bottom: 2em;
+    position: absolute;
+    right: 6.4rem;
+    top: 3.3rem; 
+    background-color: var(--font-color);
+}
+#resources{
+    position: relative;
+}
+#resources::after{
+    content: '';
+    height: 5%; 
+    width: 1px;
+    padding-bottom: 2em;
+    position: absolute;
+    left: 7.1rem;
+    top: 3.3rem; 
+    background-color: var(--font-color);
+}
+.title{
+    /* margin-left: 11rem; */
+    font-size: 4.5rem;
+}
+.main__bottom{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* background-color: orange; */
+    padding-bottom: 2rem;
+}
+.info{
+    margin-top: 5rem;
+    border-top: 1px solid var(--font-color);
+    /* background-color: orange; */
+}
+.info p{
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.start__btn{
+    position: absolute;
+    margin-top: 2.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: var(--font-color);
+    color: white;
+}
+.img__info{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: orange; */
+    flex: 1;
+    /* align-self: flex-end; */
+    /* align-items: flex-end; */
+    margin-top: 14.5rem;
+}
+#first::after{
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: 23rem;
+    width: 7px;
+    height: 7px;
+    /* padding: 1rem; */
+    background-color: black;
+}
+#second::after{
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: 43rem;
+    width: 7px;
+    height: 7px;
+    /* padding: 1rem; */
+    background-color: black;
+}
+#third::after{
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: 66rem;
+    width: 7px;
+    height: 7px;
+    /* padding: 1rem; */
+    background-color: black;
+}
